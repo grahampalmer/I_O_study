@@ -1,0 +1,26 @@
+[2008-09] adjustments to dataset
+
+need to adjust Z[66,66] to 1,000, was 17,422  
+need to add row to ABS4604 matrix  
+need to change ABS4604[11,15]  
+need to change ABS4604[24,8:9] and [11,8:9] (split 8 & 9) 
+need to save ABS4604  
+need to adjust Z[8,65] for coal, was 1,740, changed to 3,480 
+need to add BREE_types.mat to directory 
+
+
+From 2013-14
+1. remedy double counting of transmission-distribution by reducing Z(66,66), used 'electricity prices' spreadsheet to subtract estimated cost of trans/dist
+
+2. doubled Z(8,65) to increase coal mining energy due to lower price, etc, was 1621.8, changed to 3243.6
+
+3. adjusted electricity self-consumption to 15 PJ, previously 96 PJ - 
+
+ABS
+own use 35%, purchased 10%, losses 55%
+
+Changed Z [66,66] from 17,892 to 1,000
+
+Added row to ABS_4604 table. Row 24 is electricity distribution
+2013-14, electricity is 0.9 PJ
+Split fuels 7,8,9 in half for generation & distribution
